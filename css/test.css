@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.skill{
+    border: 2px solid salmon;
+    padding: 20px;
+    width: 45%;
+}
+
+.skill-container{
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}

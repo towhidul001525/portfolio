@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 50px 20px;
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+
+nav{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-content>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+
+.nav-content li{
+    list-style: none;
+}
+
+.nav-title{
+    font-weight: bolder;
+}
+.nav-span{
+    font-weight: bolder;
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.banner{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+   
+}
+
+.banner-img>img{
+    width: 90%;
+    margin-left: 100px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-container{
+  background-color: aliceblue;
+  margin-top: 100px;
+  padding: 150px;
+  border-radius: 15px;
+}
+
+.about-title{
+    font-size:3em ;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-details{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.details-name>h4{
+    margin-bottom: 20px;
+}
+.skill-container{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 80px;
+}
+
+.skill-title{
+    font-size: 3em;
+    text-align: center;
+}
+
+.skill{
+    
+    background-color:white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.skill>p{
+    font-size: 1em;
+    text-align: left;
+}
+
+.skill-list{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+   
+    
+}
+
+.summary{
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px 50px;
+}
+
+.summary-title{
+    text-align: center;
+}
+
+.all-summary{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer{
+    padding: 50px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 15%;
+}
+.footer-des{
+    width: 85%;
+}
